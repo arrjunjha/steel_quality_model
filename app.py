@@ -22,7 +22,7 @@ st.markdown("Upload an image of steel surface to detect defects automatically")
 
 @st.cache_resource
 def load_model():
-    model_path = 'best.pt'
+    model_path = 'model/best.pt'
     
     if not os.path.exists(model_path):
         st.error(f"Model file not found: {model_path}")
