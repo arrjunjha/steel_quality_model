@@ -35,11 +35,11 @@ streamlit run app/app.py
 
 ## 📁 Project Structure
 
-├── models/best.pt # Trained YOLOv5 model
-├── preprocessing/ # Data preprocessing scripts
-├── app/app.py # Streamlit web application
-├── sample_images/ # Test images
-└── requirements.txt # Python dependencies
+models/best.pt # Trained YOLOv5 model
+preprocessing/ # Data preprocessing scripts
+app/app.py # Streamlit web application
+sample_images/ # Test images
+requirements.txt # Python dependencies
 
 
 ## 🛠️ Usage
@@ -75,12 +75,4 @@ streamlit run app/app.py
 
 The system successfully detects defects with high accuracy while being optimized for industrial deployment with configurable sensitivity for different defect types.
 
-## 👨‍💼 Author
 
-**[Your Name]** - Production & Industrial Engineering Student
-- Specialized in AI applications for manufacturing quality control
-- Focus on Industry 4.0 and automated inspection systems
-
-## 📄 License
-
-This project is licensed under the MIT License.
