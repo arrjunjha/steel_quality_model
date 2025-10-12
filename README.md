@@ -33,14 +33,6 @@ pip install -r requirements.txt
 streamlit run app/app.py
 
 
-## 📁 Project Structure
-
-models/best.pt # Trained YOLOv5 model
-preprocessing/ # Data preprocessing scripts
-app/app.py # Streamlit web application
-sample_images/ # Test images
-requirements.txt # Python dependencies
-
 
 ## 🛠️ Usage
 
